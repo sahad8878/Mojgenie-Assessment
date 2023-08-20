@@ -10,7 +10,7 @@ function SelectOne({ value, handleFuction, label, options }) {
         name=""
         id=""
         className={`border border-black ${
-          label === "Limit" ? "w-full" : "w-60"
+          label === "Limit" ? "w-16" : "w-60"
         }  p-1 rounded-lg`}
       >
         {options.map((option) => (

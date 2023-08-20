@@ -67,7 +67,7 @@ function FilterSection() {
 
   return (
     <>
-      <div className=" flex flex-col sm:flex-row   w-full   sm:py-7 sm:px-9 ">
+      <div className=" flex flex-col sm:flex-row   w-full   sm:py-5 sm:px-9 ">
         <div className="sm:w-[60%] flex  w-full  space-x-4 px-3 sm:px-12 justify-center items-center">
           <label htmlFor="">Search</label>
 
@@ -89,7 +89,7 @@ function FilterSection() {
         </div>
       </div>
 
-      <div className=" flex flex-col sm:flex-row space-y-2 sm:space-y-0  w-full mt-2 sm:mt-0   sm:py-7 sm:px-9 ">
+      <div className=" flex flex-col sm:flex-row space-y-2 sm:space-y-0  w-full mt-2  sm:mt-0   sm:pb-7 sm:px-9 ">
         <div className="sm:w-1/3 flex sm:justify-center items-center px-3 space-x-3">
           <label htmlFor="" className="mr-4 sm:mr-0">
             Race

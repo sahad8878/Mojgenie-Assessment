@@ -1,6 +1,7 @@
 import React from "react";
 
 const SingleDetails = ({ label, detail }) => {
+
   return (
     <div className="flex flex-col md:flex-row w-full border-b">
       <div className="w-full py-3 md:py-0 md:w-[50%] flex flex-col sm:flex-row border-b md:border-0 ">

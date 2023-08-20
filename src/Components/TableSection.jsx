@@ -59,7 +59,7 @@ const TableSection = () => {
           {total < 10 ? (
             <div className="h-10 bg-white w-full"></div>
           ) : (
-            <div className="w-full flex justify-between p-6 border bg-white">
+            <div className="w-full flex flex-col sm:flex-row justify-center space-y-3 sm:space-y-0 font-medium sm:justify-between p-6 border bg-white">
               <div>
                 <Pagination
                   size="small"

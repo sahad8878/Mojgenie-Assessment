@@ -15,7 +15,7 @@ const SingleCharactorSection = () => {
   ];
   return (
     <>
-      <div className="shadow-2xl    h-[100%] w-full md:space-y-10 p-8 md:p-12">
+      <div className="shadow-2xl     md:space-y-10 p-8 md:p-12">
         {data.map((ele) => (
           <SingleDetails label={ele.label} detail={ele.value} />
         ))}

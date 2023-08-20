@@ -18,11 +18,11 @@ const CharacterDetailsPage = () => {
 
   return (
     <>
-      <div className="h-screen">
+      <div className="">
         <div className="p-6 shadow-lg text-white bg-[#4C516D] font-semibold text-2xl flex justify-center items-center">
           Characters &gt; {character?.name}
         </div>
-        <div className=" p-7 sm:p-12 md:p-40">
+        <div className=" p-7 sm:px-12 md:px-40 sm:pt-20">
           {loading ? (
             <div className="flex justify-center items-center h-full mt-36">
               <InfinitySpin width="200" color="#4fa94d" />
@@ -34,7 +34,7 @@ const CharacterDetailsPage = () => {
           )}
           <div className="flex justify-end">
             <Link to="/">
-              <button className="p-2 rounded-lg m-10 px-11 font-semibold hover:bg-white hover:border hover:border-black bg-[#B0C4DE]">
+              <button className="p-2 rounded-lg  px-10 mt-6 font-semibold hover:bg-white hover:border hover:border-black bg-[#B0C4DE]">
                 Close
               </button>
             </Link>
